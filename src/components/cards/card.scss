@@ -1,0 +1,24 @@
+.container-Services{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height: 600px;
+    align-items: center;
+    figure{
+        background-color: white;
+        width: 20%;
+        border-radius: 10px;
+        box-shadow: 1px 2px 3px rgb(138, 138, 138);
+        padding: 30px;
+        cursor: pointer;
+        img{
+            padding: 10px;
+            width:60%;
+        }
+        figcaption p{
+        font-size: 21px;
+        font-weight: bold;
+        }
+    }
+}
